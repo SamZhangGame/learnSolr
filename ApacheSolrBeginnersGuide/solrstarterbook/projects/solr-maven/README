@@ -1,0 +1,8 @@
+This example is partially based on a blog post "Running Solr with Maven", by Petri Kainulainen:
+http://www.petrikainulainen.net/programming/maven/running-solr-with-maven/
+
+* for running the Solr webapplication module:
+>> cd solr-webapp
+>> mvn jetty:run
+
+* open browser and go to url: http://localhost:8983/solr/

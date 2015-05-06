@@ -1,0 +1,5 @@
+
+This example is partially derived from a very good articole presenting Solr spatialsearch on geonames:
+http://www.duraibalusamy.com/2013/06/solr-430-spatial-search-setup-for.html
+
+If you have troubles such as java.lang.NoClassDefFoundError: com/vividsolutions/jts/geom/Geometry, please put the lib/jts-*.jar library under your SOLR_DIST/solr-webapp/webapp/WEB-INF/lib, as explained in the article above.
